@@ -13,6 +13,9 @@
 		1F3C2BC71DF5B8C100A2A64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C2BC61DF5B8C100A2A64C /* Assets.xcassets */; };
 		1F3C2BCA1DF5B8C100A2A64C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C2BC81DF5B8C100A2A64C /* LaunchScreen.storyboard */; };
 		1F3C2BD51DF5B8C100A2A64C /* SololearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C2BD41DF5B8C100A2A64C /* SololearnTests.swift */; };
+		1F3C2BE01DF9B6F500A2A64C /* itemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C2BDF1DF9B6F500A2A64C /* itemTableViewCell.swift */; };
+		1F3C2BE41DF9B91C00A2A64C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C2BE31DF9B91C00A2A64C /* Item.swift */; };
+		1F3C2BE61DF9C92C00A2A64C /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C2BE51DF9C92C00A2A64C /* ItemTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		1F3C2BD01DF5B8C100A2A64C /* SololearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SololearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3C2BD41DF5B8C100A2A64C /* SololearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SololearnTests.swift; sourceTree = "<group>"; };
 		1F3C2BD61DF5B8C100A2A64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3C2BDF1DF9B6F500A2A64C /* itemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemTableViewCell.swift; sourceTree = "<group>"; };
+		1F3C2BE31DF9B91C00A2A64C /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1F3C2BE51DF9C92C00A2A64C /* ItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				1F3C2BBF1DF5B8C100A2A64C /* AppDelegate.swift */,
 				1F3C2BC11DF5B8C100A2A64C /* ViewController.swift */,
+				1F3C2BDF1DF9B6F500A2A64C /* itemTableViewCell.swift */,
+				1F3C2BE31DF9B91C00A2A64C /* Item.swift */,
+				1F3C2BE51DF9C92C00A2A64C /* ItemTableViewController.swift */,
 				1F3C2BC31DF5B8C100A2A64C /* Main.storyboard */,
 				1F3C2BC61DF5B8C100A2A64C /* Assets.xcassets */,
 				1F3C2BC81DF5B8C100A2A64C /* LaunchScreen.storyboard */,
@@ -201,6 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3C2BE61DF9C92C00A2A64C /* ItemTableViewController.swift in Sources */,
+				1F3C2BE41DF9B91C00A2A64C /* Item.swift in Sources */,
+				1F3C2BE01DF9B6F500A2A64C /* itemTableViewCell.swift in Sources */,
 				1F3C2BC21DF5B8C100A2A64C /* ViewController.swift in Sources */,
 				1F3C2BC01DF5B8C100A2A64C /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +424,7 @@
 				1F3C2BDB1DF5B8C100A2A64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F3C2BDC1DF5B8C100A2A64C /* Build configuration list for PBXNativeTarget "SololearnTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				1F3C2BDE1DF5B8C100A2A64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
